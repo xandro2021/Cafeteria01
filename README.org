@@ -1,0 +1,13 @@
+#+title: Submodule: Arquitectura Website
+
+* About
+This is submodule of my studying notes which were released as a public project in order to show it as part of a bigger portfolio, in this submodule I portrait the third website design I learned to create by following the tutorial in the CSS course made by the Mexican programmer and designer Juan Pablo De la torre Valdez in Udemy.
++ Course Name: CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos
+
+* Interesting things learned in this Project
++ It was reinforced the use of Flexbox and Grid Layouts to position every box element in the website
++ It was reinforced the used of grid layouts to work with images
++ It was also reinforced the manipulation of images through the different background properties
++ it was reiforced the use of the different background properties to play with images depending of the mediaquery
++ it was reinforced the use of submodules to write CSS.
++ it was reinforced the mobile First strategy to start writing CSS.
