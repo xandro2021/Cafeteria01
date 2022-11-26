@@ -1,0 +1,22 @@
+{
+  "name": "cafeteria01",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS, Gulp, CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xandro2021/Cafeteria01.git"
+  },
+  "author": "xandro2021",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xandro2021/Cafeteria01/issues"
+  },
+  "homepage": "https://github.com/xandro2021/Cafeteria01#readme",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
