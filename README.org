@@ -5,6 +5,8 @@ This is submodule of my studying notes which were released as a public project i
 + Course Name: CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos
 
 * Interesting things learned in this Project
++ It was learned how to use Gulp to create the compiled CSS file from SASS automatically
++ It was learned how to use Gulp to create images .aviff and webp from heavier images extensions like .jpg and .png
 + It was reinforced the use of Flexbox and Grid Layouts to position every box element in the website
 + It was reinforced the used of grid layouts to work with images
 + It was also reinforced the manipulation of images through the different background properties
