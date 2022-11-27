@@ -1,4 +1,4 @@
-const { src, dest, watch } = require( "gulp" );
+const { src, dest, watch, series, parallel } = require( "gulp" );
 const sass = require( "gulp-sass" )( require( "sass" ) );
 const postcss = require( "gulp-postcss" );
 const autoprefixer = require( "autoprefixer" );
@@ -18,8 +18,12 @@ function css( done ) {
 
 // Funcion que esta a la escucha de los cambios
 function dev() {
-  watch( "src/scss/app.scss", css );
+  watch( "src/scss/**/*.scss", css );
 }
 
 exports.css = css;
 exports.dev = dev;
+exports.default = series( css, dev );
+
+// Series - Se inicia una tarea y hasta que finaliza se inicia la siguiente
+// Parallel - Todas inician al mismo tiempo y se completan de forma diferente
