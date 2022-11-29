@@ -1,3 +1,40 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
 /* HEADER */
 .header {
+    padding: 5rem 0rem;
+    position: relative;
+
+    @include m.telefono {
+        padding: 4rem;
+    }
+
+    @include m.tablet {
+        padding: 3rem;
+    }
+
+    @include m.desktop {
+        padding: 2rem;
+    }
+
+    &::before {
+        content: "";
+        background-color: v.$negro;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0.6;
+    }
+
+    .contenido-header {
+        position: relative;
+    }
+}
+
+/* Header de cada pagina */
+.header-inicio {
+    background-image: url("../img/header_inicio.jpg");
 }

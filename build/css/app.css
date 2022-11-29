@@ -368,4 +368,48 @@ h3 {
   background-color: #E8505B;
 }
 
-/* HEADER */ /* NAVEGACION */
+/* HEADER */
+.header {
+  padding: 5rem 0rem;
+  position: relative;
+}
+@media (min-width: 480px) {
+  .header {
+    padding: 4rem;
+  }
+}
+@media (min-width: 480px) {
+  .header {
+    padding: 4rem;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .header {
+    padding: 2rem;
+  }
+}
+.header::before {
+  content: "";
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+.header .contenido-header {
+  position: relative;
+}
+
+/* Header de cada pagina */
+.header-inicio {
+  background-image: url("../img/header_inicio.jpg");
+}
+
+/* NAVEGACION */
