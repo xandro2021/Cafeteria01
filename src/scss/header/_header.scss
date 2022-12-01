@@ -6,16 +6,8 @@
     padding: 5rem 0rem;
     position: relative;
 
-    @include m.telefono {
-        padding: 4rem;
-    }
-
     @include m.tablet {
-        padding: 3rem;
-    }
-
-    @include m.desktop {
-        padding: 2rem;
+        min-height: 70rem;
     }
 
     &::before {
@@ -31,6 +23,17 @@
 
     .contenido-header {
         position: relative;
+
+        h1 {
+            text-align: center;
+            color: v.$blanco;
+            text-transform: uppercase;
+            margin-top: 5rem;
+
+            @include m.tablet {
+                margin-top: 10rem;
+            }
+        }
     }
 }
 
