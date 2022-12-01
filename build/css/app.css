@@ -378,11 +378,6 @@ h3 {
     padding: 4rem;
   }
 }
-@media (min-width: 480px) {
-  .header {
-    padding: 4rem;
-  }
-}
 @media (min-width: 768px) {
   .header {
     padding: 3rem;
@@ -413,3 +408,24 @@ h3 {
 }
 
 /* NAVEGACION */
+.barra {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .barra {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.barra .logo {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .barra .logo {
+    width: 20rem;
+    margin: 0px;
+  }
+}
