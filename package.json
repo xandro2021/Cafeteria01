@@ -18,6 +18,7 @@
   "homepage": "https://github.com/xandro2021/Cafeteria01#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
     "gulp": "^4.0.2",
     "gulp-avif": "^1.1.1",
     "gulp-imagemin": "^7.1.0",
