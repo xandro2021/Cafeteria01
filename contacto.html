@@ -16,7 +16,7 @@
 </head>
 <body>
 
-    <header class="header header-inicio">
+    <header class="header header-contacto">
         <div class="contenido-header contenedor">
 
             <div class="barra">
@@ -26,24 +26,66 @@
                 </div>
 
                 <nav class="nav-principal">
-                    <a href="index.html" class="activo">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="nosotros.html">About US</a>
                     <a href="proceso.html">Process</a>
                     <a href="menu.html">Menu</a>
                     <a href="galeria.html">Gallery</a>
-                    <a href="contacto.html">Contact</a>
+                    <a href="contacto.html" class="activo">Contact</a>
                 </nav>
 
             </div>
 
             <div class="texto-header">
-                <h1>Enjoy a delicious cup of coffee</h1>
+                <h1>The best coffee beans, the best coffee quality!</h1>
             </div>
         </div>
     </header>
 
     <main class="contenedor contenido-principal">
+        <h2> <span>Reserva tu</span>Mesa </h2>
 
+        <div class="contenido-contacto">
+            <form method="" id="" action="" class="formulario">
+
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="" value=""  id="nombre" placeholder="Tu Nombre"/>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Email:</label>
+                    <input type="email" name="" value=""  id="email" placeholder="Tu Email"/>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Numero de personas: </label>
+                    <select id="" name="">
+                        <option value="" disabled selected >-- Selecione --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="más">+4</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="hora">Hora:</label>
+                    <input type="time" name="" value=""  id="hora" max="18:00" min="09:00"/>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="" value=""  id="fecha"/>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" name="" value="Enviar" />
+                </div>
+
+            </form>
+        </div>
     </main>
 
     <footer class="footer">
